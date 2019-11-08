@@ -1,0 +1,158 @@
+body{
+    background: #BFD891 ;
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background: black ;
+    overflow: hidden;
+    width: 100%;
+    z-index:1;
+}
+h1{
+    margin: 10px;
+    letter-spacing: 5px;
+    word-spacing: ;
+    color: white;
+    text-transform: uppercase; 
+    font-family: Lucida Console;
+}
+
+ .container {
+    width: 100%;
+   
+    
+  }
+  .todo{
+      
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    justify-content:center;  
+      margin-top: 51px; 
+      flex-direction:row;
+  }
+  ul{
+    list-style-type : none;
+    margin-left: 3px; 
+    
+  }
+  li{
+      margin: 5px;
+      background: rgba(127, 103, 76, 0.3);
+      max-width: 100%;
+      padding: 9px;
+      border: solid black 2px;
+      border-radius: 40px 20px;
+      position: relative;
+      margin-left: 0;
+
+  }
+  h2{
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 22px;
+    color: black ;
+    text-transform: lowercase;
+  }
+
+  .title{
+      color: black;
+      text-shadow: 2px 1.5px whitesmoke;
+      font-size: 18px;
+      font-family: Franklin Gothic Medium;
+      margin-top: 9px;
+      text-transform: uppercase;
+      
+  }
+  .photo{
+  float: right;
+  
+  }
+  img{
+      max-width: 60px;
+      height: auto;
+  }
+
+
+.description{
+    padding: 0;
+    margin: 2px;
+    font-size: 18px;
+    color: black;
+    
+    position: relative;
+    line-height: 3em;
+    height: 3em;      
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+
+.status{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+
+  a{
+      color: black;
+      margin: 5px;
+      padding: 3px;
+      text-decoration: none;
+      font-family: Segoe UI;
+      font-size: 14px;
+      background: rgba(255, 173, 36, 0.6);
+      border-radius: 10px 5px;
+      border: solid black 1px;
+  }
+  .no:hover{
+      color: red;
+      background: rgba(0, 0, 77, 0.1);
+      border-radius: 10px 5px;
+      border: solid red 1px;
+  }
+  .yes:hover{
+      color: green;
+      background: rgba(0, 0, 77, 0.1);
+      border-radius: 10px 5px;
+      border: solid green 1px;
+}
+
+  footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+p{
+color: white;
+font-family: Arial;
+font-size: 1em;
+text-transform: capitalize;
+}
+.gmail{
+    color: whitesmoke;
+    margin: 5px;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-size: 14px;
+    border-radius: 8px 5px;
+    background: none;
+    text-transform: lowercase;
+    padding: 2px;
+}
+.gmail:hover{
+    color: red;
+}
